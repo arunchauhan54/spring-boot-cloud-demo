@@ -1,10 +1,116 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
+    <title>Arun Singh</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/reset.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/site.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/container.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/grid.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/header.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/image.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/menu.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/divider.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/dropdown.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/segment.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/button.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/list.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/icon.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/sidebar.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/transition.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/card.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/statistic.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/table.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/checkbox.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/modal.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/components/dimmer.min.css"> </link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/input.min.css"> </link>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/visibility.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/sidebar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/transition.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/checkbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/modal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/dimmer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/semantic.min.js"></script>
 </head>
 <body>
-<p th:text="'Hello!   :'+ ${name}" />
+<!-- Page Contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+                <a class="active item">Why this</a>
+                <a class="item" target="_blank" href="https://www.linkedin.com/in/arunsingh54/" >LinkedIn</a>
+                <a class="item" target="_blank" href="https://github.com/arunchauhan54">GitHub</a>
+                <a class="item" target="_blank" href="https://www.facebook.com/profile.php?id=519714268">Facebook</a>
+            </div>
+        </div>
+
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                Arun Singh
+            </h1>
+            <h2>On the joyride with the source </h2>
+
+        </div>
+
+        <div class="ui text container">
+            <p aria-rowspan="10"></p>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div >
+                    <h3 class="ui header">A Little Detail</h3>
+                    <p>Most of the social media links are already added so I don't have to write much.
+                        Feel free to browse.</p>
+                    <p>This website is just experimental, as I wanted to host something on
+                        <a href="https://cloud.google.com/">Google cloud</a>. Google
+                        cloud tutorial has been a great help to quickly learn and host this one-page website.
+                        This is running on Google app engine flexible platform on tomcat server. I had to use the
+                        flexible platform option as this application is spring boot based which generated a jar with
+                        embedded tomcat.I don't want to create war file just to utilise standard platform </p>
+                    <p> In future, I might move it to Google cloud standard platform to get high
+                        responsiveness. If this page took time to load means its still not yet migrated and compute box
+                    took time to wake up. Another subsequent request will return quickly</p>
+
+                    <p > Also check out <a href="https://semantic-ui.com/">semantic-ui</a> , I am using CSS from there.</p>
+
+                </div>
+                <!--<div class="six wide right floated column" >
+                    <img src="/image.jpg" class="ui large bordered rounded image"/>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+
+
+   <div class="ui inverted section divider"></div>
+
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="ten wide column">
+
+                    <div class="ui inverted link list">
+                        <a href="mailto:arunchauhan54@gmail.com"  class="item">Contact Me</a>arunchauhan54@gmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
