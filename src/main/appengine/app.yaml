@@ -1,3 +1,4 @@
 runtime: java
 env: flex
-min_num_instances: 1
+automatic_scaling:
+  min_num_instances: 1
